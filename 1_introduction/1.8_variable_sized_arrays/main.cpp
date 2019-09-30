@@ -2,7 +2,8 @@
 #include <iostream>
 #include <vector>
 
-int main() {
+int main()
+{
     int n, q;
     std::cin >> n >> q;
     std::vector<std::vector<int>> a(n);

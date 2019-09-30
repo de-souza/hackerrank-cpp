@@ -1,7 +1,8 @@
 /* How to manipulate arrays. */
 #include <iostream>
 
-int main() {
+int main()
+{
     int n, i;
     std::cin >> n;
     int *arr = new int[n];  /* Variable length arrays are forbidden in C++. */
