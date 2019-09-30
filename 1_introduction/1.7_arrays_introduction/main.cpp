@@ -9,6 +9,6 @@ int main() {
         std::cin >> arr[i];
     for (i = n; i > 0; i--)
         std::cout << arr[i-1] << " ";
-    std::cout << std::endl;
     delete[] arr;
+    std::cout << std::endl;
 }
